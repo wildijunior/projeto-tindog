@@ -40,7 +40,7 @@
   </head>
 
   <body>
-    <section id="title">
+    <section class="colored-section" id="title">
       <!-- CONTAINER -->
       <div class="container-fluid">
         <!-- Nav Bar -->
@@ -82,7 +82,9 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <h1>Conheça novos e interessantes cães nas proximidades.</h1>
+            <h1 class="big-heading">
+              Conheça novos e interessantes cães nas proximidades.
+            </h1>
             <button type="button" class="btn btn-dark btn-lg download-button">
               <i class="fab fa-apple"></i> Download
             </button>
@@ -107,35 +109,39 @@
 
     <!-- Features -->
 
-    <section id="features">
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3>Fácil de usar.</h3>
-          <p>Tão fácil de usar, até seu cachorro pode fazer isso.</p>
-        </div>
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3>Fácil de usar.</h3>
+            <p>Tão fácil de usar, até seu cachorro pode fazer isso.</p>
+          </div>
 
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3>Clientela elitizada</h3>
-          <p>Temos todas as raças de cachorros, os melhores.</p>
-        </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3>Clientela elitizada</h3>
+            <p>Temos todas as raças de cachorros, os melhores.</p>
+          </div>
 
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3>Procedência no trabalho.</h3>
-          <p>Encontre o amor do seu cachorro ou tenha seu dinheiro de volta.</p>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3>Procedência no trabalho.</h3>
+            <p>
+              Encontre o amor do seu cachorro ou tenha seu dinheiro de volta.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials">
+    <section class="colored-section" id="testimonials">
       <!-- CAROUSEL -->
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
               Não preciso mais cheirar outros cães por amor. Encontrei o Bob, o
               dog mais quente no TinDog. Woof.
             </h2>
@@ -146,7 +152,7 @@
             />
             <em>Bobinho, 9 York</em>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item container-fluid">
             <h2 class="testimonial-text">
               Meu cachorro costumava ser tão solitário, mas com a ajuda de
               TinDog, ele encontrou o amor de sua vida. Eu acho.
@@ -182,7 +188,7 @@
 
     <!-- Press -->
 
-    <section id="press">
+    <section class="colored-section" id="press">
       <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
       <img
         class="press-logo"
@@ -194,8 +200,8 @@
 
     <!-- Pricing -->
 
-    <section id="pricing">
-      <h2>Plano para cada cachorro</h2>
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">Planos para cada cachorro</h2>
       <p>Planos simples e acessíveis para você e seu cachorro.</p>
 
       <!-- CARD GRID -->
@@ -205,10 +211,10 @@
 
           <div class="card">
             <div class="card-header">
-              <h3>Chihuahua</h3>
+              <h3 class="feature-title">Chihuahua</h3>
             </div>
             <div class="card-body">
-              <h2>Free</h2>
+              <h2 class="price-text">Free</h2>
               <p>5 Matches Por Dia</p>
               <p>10 Mensagens Por Dia</p>
               <p>Uso ilimitado do app</p>
@@ -226,10 +232,10 @@
         <div class="pricing-column col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
-              <h3>Labrador</h3>
+              <h3 class="feature-title">Labrador</h3>
             </div>
             <div class="card-body">
-              <h2>R$49 / Mês</h2>
+              <h2 class="price-text">R$49 / Mês</h2>
               <p>Matches Ilimitados</p>
               <p>Mensagens Ilimitadas</p>
               <p>Uso ilimitado do app</p>
@@ -244,10 +250,10 @@
         <div class="pricing-column col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
-              <h3>Mastiff</h3>
+              <h3 class="feature-title">Mastiff</h3>
             </div>
             <div class="card-body">
-              <h2>R$99 / Mês</h2>
+              <h2 class="price-text">R$99 / Mês</h2>
               <p>Listagem Prioritária</p>
               <p>Matches Ilimitados</p>
               <p>Mensagens Ilimitadas</p>
@@ -262,23 +268,34 @@
     </section>
 
     <!-- Call to Action -->
-      <section id="cta">
-        <h3 class="cta-heading">Encontre o amor verdadeiro do seu cachorro hoje.</h3>
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="big-heading">
+          Encontre o amor verdadeiro do seu cachorro hoje.
+        </h3>
         <button class="download-button btn btn-lg btn-dark" type="button">
-          <i class="fab fa-apple"></i> Download</button>
-        <button class="download-button btn btn-lg btn-outline-light" type="button">
-          <i class="fab fa-google-play"></i> Download</button>
-      </section>
+          <i class="fab fa-apple"></i> Download
+        </button>
+        <button
+          class="download-button btn btn-lg btn-outline-light"
+          type="button"
+        >
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
 
-      <!-- Footer -->
+    <!-- Footer -->
 
-      <footer id="footer">
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
         <i class="footer-icons fab fa-twitter"></i>
         <i class="footer-icons fab fa-facebook-f"></i>
         <i class="footer-icons fab fa-instagram"></i>
         <i class="footer-icons fas fa-envelope"></i>
         <p>© Copyright 2020 TinDog</p>
-      </footer>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
