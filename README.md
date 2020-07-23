@@ -1,4 +1,4 @@
-# projeto-tindog
+# Projeto-tindog
 Projeto de um app estilo tinder para cachorros.
 
 # Tecnologias utilizadas
