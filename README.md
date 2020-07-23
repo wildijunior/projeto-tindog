@@ -1,5 +1,5 @@
 # projeto-tindog
-Projeto final de modelo de app tinder para cachorros.
+Projeto de um app estilo tinder para cachorros.
 
 # Tecnologias utilizadas
 - Bootstrap 4.5
